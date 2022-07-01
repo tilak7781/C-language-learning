@@ -50,3 +50,21 @@ There are also a lot of exercise included in these tutorials, so you might test 
 
 Summary:
 This course is going to make you an expert level C programmer if you take it seriously and it is also going to help you with other languages as C++, which is very much like C. If you have learned C than you have learned about 60-70% C++. It will also help you with Python as moving towards a simpler language is more easier.
+
+
+What is an IDE?
+IDE stands for Integrated development environment. It is nothing more than an enhanced version of a text editor that helps you write more efficient and nicer code. It helps to differentiate different parts of your codes with different colors and notifying you if you are missing some semicolon or bracket at some place by highlighting that area. A lot of IDEs are available such as DEVC++ or Code Blocks but we are going to use VS Code for this tutorial series.
+
+Compiler:
+A compiler is used to run the program of a certain language by converting the code into the language that our computer could understand. Without a compiler we can not run our code. Every programming language is required a different compiler for its functioning because the syntax of every language is different from the other. There are a lot of compilers available, but we are going to use MinGW for this course because it will fulfill all of our requirements and also it is recommended by Microsoft itself.
+
+
+our first c program
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World\n");
+    return 0;
+}
